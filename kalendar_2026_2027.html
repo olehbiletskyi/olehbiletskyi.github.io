@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Календар навчального року 2026–2027</title>
+<style>
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #fafafa;
+    color: #222;
+    margin: 0;
+    padding: 24px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 24px;
+    font-size: 13px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .swatch {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.15);
+  }
+  .legend-note {
+    text-align: center;
+    font-size: 13px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  .month {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .month h3 {
+    text-align: center;
+    margin: 4px 0 8px 0;
+    font-size: 15px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  th {
+    font-size: 10px;
+    color: #888;
+    font-weight: 500;
+    padding-bottom: 4px;
+  }
+  td {
+    text-align: center;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: relative;
+    padding: 0;
+  }
+  td.pad { background: transparent; }
+  .daynum { position: relative; z-index: 1; }
+  td[data-holiday="1"] {
+    outline: 2px solid #e03131;
+    outline-offset: -2px;
+    font-weight: 600;
+  }
+  td.today {
+    outline: 3px solid #1c7ed6;
+    outline-offset: -3px;
+    font-weight: 800;
+  }
+  td.today .daynum::after {
+    content: "";
+  }
+</style>
+</head>
+<body>
+  <h1>Календар навчального року 2026–2027</h1>
+  <div class="subtitle">Ліцей «Даниїл»</div>
+  <div class="legend">
+    <div class="legend-item"><span class="swatch" style="background:#AEDFF7"></span>1 чверть</div><div class="legend-item"><span class="swatch" style="background:#B7E4C7"></span>2 чверть</div><div class="legend-item"><span class="swatch" style="background:#D0BFFF"></span>3 чверть</div><div class="legend-item"><span class="swatch" style="background:#FFD9AE"></span>4 чверть</div><div class="legend-item"><span class="swatch" style="background:#C9CDD3"></span>Канікули</div><div class="legend-item"><span class="swatch" style="background:#fff;outline:3px solid #1c7ed6;outline-offset:-3px;"></span>Сьогодні</div>
+  </div>
+  <div class="legend-note">
+    ★ — перший/останній дзвоник
+  </div>
+  <div class="grid">
+    
+    <div class="month">
+      <h3>Вересень 2026</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td style="background:#AEDFF7;" data-special="1" data-date="2026-09-01" title="Перший дзвоник — початок навчального року"><span class="daynum">1</span>★</td><td style="background:#AEDFF7;" data-date="2026-09-02"><span class="daynum">2</span></td><td style="background:#AEDFF7;" data-date="2026-09-03"><span class="daynum">3</span></td><td style="background:#AEDFF7;" data-date="2026-09-04"><span class="daynum">4</span></td><td style="background:#FFC9C9;" data-date="2026-09-05"><span class="daynum">5</span></td><td style="background:#FFC9C9;" data-date="2026-09-06"><span class="daynum">6</span></td></tr>
+<tr><td style="background:#AEDFF7;" data-date="2026-09-07"><span class="daynum">7</span></td><td style="background:#AEDFF7;" data-date="2026-09-08"><span class="daynum">8</span></td><td style="background:#AEDFF7;" data-date="2026-09-09"><span class="daynum">9</span></td><td style="background:#AEDFF7;" data-date="2026-09-10"><span class="daynum">10</span></td><td style="background:#AEDFF7;" data-date="2026-09-11"><span class="daynum">11</span></td><td style="background:#FFC9C9;" data-date="2026-09-12"><span class="daynum">12</span></td><td style="background:#FFC9C9;" data-date="2026-09-13"><span class="daynum">13</span></td></tr>
+<tr><td style="background:#AEDFF7;" data-date="2026-09-14"><span class="daynum">14</span></td><td style="background:#AEDFF7;" data-date="2026-09-15"><span class="daynum">15</span></td><td style="background:#AEDFF7;" data-date="2026-09-16"><span class="daynum">16</span></td><td style="background:#AEDFF7;" data-date="2026-09-17"><span class="daynum">17</span></td><td style="background:#AEDFF7;" data-date="2026-09-18"><span class="daynum">18</span></td><td style="background:#FFC9C9;" data-date="2026-09-19"><span class="daynum">19</span></td><td style="background:#FFC9C9;" data-date="2026-09-20"><span class="daynum">20</span></td></tr>
+<tr><td style="background:#AEDFF7;" data-date="2026-09-21"><span class="daynum">21</span></td><td style="background:#AEDFF7;" data-date="2026-09-22"><span class="daynum">22</span></td><td style="background:#AEDFF7;" data-date="2026-09-23"><span class="daynum">23</span></td><td style="background:#AEDFF7;" data-date="2026-09-24"><span class="daynum">24</span></td><td style="background:#AEDFF7;" data-date="2026-09-25"><span class="daynum">25</span></td><td style="background:#FFC9C9;" data-date="2026-09-26"><span class="daynum">26</span></td><td style="background:#FFC9C9;" data-date="2026-09-27"><span class="daynum">27</span></td></tr>
+<tr><td style="background:#AEDFF7;" data-date="2026-09-28"><span class="daynum">28</span></td><td style="background:#AEDFF7;" data-date="2026-09-29"><span class="daynum">29</span></td><td style="background:#AEDFF7;" data-date="2026-09-30"><span class="daynum">30</span></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Жовтень 2026</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td class="pad"></td><td class="pad"></td><td style="background:#AEDFF7;" data-date="2026-10-01"><span class="daynum">1</span></td><td style="background:#AEDFF7;" data-date="2026-10-02"><span class="daynum">2</span></td><td style="background:#FFC9C9;" data-date="2026-10-03"><span class="daynum">3</span></td><td style="background:#FFC9C9;" data-date="2026-10-04"><span class="daynum">4</span></td></tr>
+<tr><td style="background:#AEDFF7;" data-date="2026-10-05"><span class="daynum">5</span></td><td style="background:#AEDFF7;" data-date="2026-10-06"><span class="daynum">6</span></td><td style="background:#AEDFF7;" data-date="2026-10-07"><span class="daynum">7</span></td><td style="background:#AEDFF7;" data-date="2026-10-08"><span class="daynum">8</span></td><td style="background:#AEDFF7;" data-date="2026-10-09"><span class="daynum">9</span></td><td style="background:#FFC9C9;" data-date="2026-10-10"><span class="daynum">10</span></td><td style="background:#FFC9C9;" data-date="2026-10-11"><span class="daynum">11</span></td></tr>
+<tr><td style="background:#AEDFF7;" data-date="2026-10-12"><span class="daynum">12</span></td><td style="background:#AEDFF7;" data-date="2026-10-13"><span class="daynum">13</span></td><td style="background:#AEDFF7;" data-date="2026-10-14"><span class="daynum">14</span></td><td style="background:#AEDFF7;" data-date="2026-10-15"><span class="daynum">15</span></td><td style="background:#AEDFF7;" data-date="2026-10-16"><span class="daynum">16</span></td><td style="background:#FFC9C9;" data-date="2026-10-17"><span class="daynum">17</span></td><td style="background:#FFC9C9;" data-date="2026-10-18"><span class="daynum">18</span></td></tr>
+<tr><td style="background:#AEDFF7;" data-date="2026-10-19"><span class="daynum">19</span></td><td style="background:#AEDFF7;" data-date="2026-10-20"><span class="daynum">20</span></td><td style="background:#AEDFF7;" data-date="2026-10-21"><span class="daynum">21</span></td><td style="background:#AEDFF7;" data-date="2026-10-22"><span class="daynum">22</span></td><td style="background:#AEDFF7;" data-date="2026-10-23"><span class="daynum">23</span></td><td style="background:#FFC9C9;" data-date="2026-10-24"><span class="daynum">24</span></td><td style="background:#FFC9C9;" data-date="2026-10-25"><span class="daynum">25</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2026-10-26"><span class="daynum">26</span></td><td style="background:#C9CDD3;" data-date="2026-10-27"><span class="daynum">27</span></td><td style="background:#C9CDD3;" data-date="2026-10-28"><span class="daynum">28</span></td><td style="background:#C9CDD3;" data-date="2026-10-29"><span class="daynum">29</span></td><td style="background:#C9CDD3;" data-date="2026-10-30"><span class="daynum">30</span></td><td style="background:#C9CDD3;" data-date="2026-10-31"><span class="daynum">31</span></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Листопад 2026</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td style="background:#C9CDD3;" data-date="2026-11-01"><span class="daynum">1</span></td></tr>
+<tr><td style="background:#B7E4C7;" data-date="2026-11-02"><span class="daynum">2</span></td><td style="background:#B7E4C7;" data-date="2026-11-03"><span class="daynum">3</span></td><td style="background:#B7E4C7;" data-date="2026-11-04"><span class="daynum">4</span></td><td style="background:#B7E4C7;" data-date="2026-11-05"><span class="daynum">5</span></td><td style="background:#B7E4C7;" data-date="2026-11-06"><span class="daynum">6</span></td><td style="background:#FFC9C9;" data-date="2026-11-07"><span class="daynum">7</span></td><td style="background:#FFC9C9;" data-date="2026-11-08"><span class="daynum">8</span></td></tr>
+<tr><td style="background:#B7E4C7;" data-date="2026-11-09"><span class="daynum">9</span></td><td style="background:#B7E4C7;" data-date="2026-11-10"><span class="daynum">10</span></td><td style="background:#B7E4C7;" data-date="2026-11-11"><span class="daynum">11</span></td><td style="background:#B7E4C7;" data-date="2026-11-12"><span class="daynum">12</span></td><td style="background:#B7E4C7;" data-date="2026-11-13"><span class="daynum">13</span></td><td style="background:#FFC9C9;" data-date="2026-11-14"><span class="daynum">14</span></td><td style="background:#FFC9C9;" data-date="2026-11-15"><span class="daynum">15</span></td></tr>
+<tr><td style="background:#B7E4C7;" data-date="2026-11-16"><span class="daynum">16</span></td><td style="background:#B7E4C7;" data-date="2026-11-17"><span class="daynum">17</span></td><td style="background:#B7E4C7;" data-date="2026-11-18"><span class="daynum">18</span></td><td style="background:#B7E4C7;" data-date="2026-11-19"><span class="daynum">19</span></td><td style="background:#B7E4C7;" data-date="2026-11-20"><span class="daynum">20</span></td><td style="background:#FFC9C9;" data-date="2026-11-21"><span class="daynum">21</span></td><td style="background:#FFC9C9;" data-date="2026-11-22"><span class="daynum">22</span></td></tr>
+<tr><td style="background:#B7E4C7;" data-date="2026-11-23"><span class="daynum">23</span></td><td style="background:#B7E4C7;" data-date="2026-11-24"><span class="daynum">24</span></td><td style="background:#B7E4C7;" data-date="2026-11-25"><span class="daynum">25</span></td><td style="background:#B7E4C7;" data-date="2026-11-26"><span class="daynum">26</span></td><td style="background:#B7E4C7;" data-date="2026-11-27"><span class="daynum">27</span></td><td style="background:#FFC9C9;" data-date="2026-11-28"><span class="daynum">28</span></td><td style="background:#FFC9C9;" data-date="2026-11-29"><span class="daynum">29</span></td></tr>
+<tr><td style="background:#B7E4C7;" data-date="2026-11-30"><span class="daynum">30</span></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Грудень 2026</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td style="background:#B7E4C7;" data-date="2026-12-01"><span class="daynum">1</span></td><td style="background:#B7E4C7;" data-date="2026-12-02"><span class="daynum">2</span></td><td style="background:#B7E4C7;" data-date="2026-12-03"><span class="daynum">3</span></td><td style="background:#B7E4C7;" data-date="2026-12-04"><span class="daynum">4</span></td><td style="background:#FFC9C9;" data-date="2026-12-05"><span class="daynum">5</span></td><td style="background:#FFC9C9;" data-date="2026-12-06"><span class="daynum">6</span></td></tr>
+<tr><td style="background:#B7E4C7;" data-date="2026-12-07"><span class="daynum">7</span></td><td style="background:#B7E4C7;" data-date="2026-12-08"><span class="daynum">8</span></td><td style="background:#B7E4C7;" data-date="2026-12-09"><span class="daynum">9</span></td><td style="background:#B7E4C7;" data-date="2026-12-10"><span class="daynum">10</span></td><td style="background:#B7E4C7;" data-date="2026-12-11"><span class="daynum">11</span></td><td style="background:#FFC9C9;" data-date="2026-12-12"><span class="daynum">12</span></td><td style="background:#FFC9C9;" data-date="2026-12-13"><span class="daynum">13</span></td></tr>
+<tr><td style="background:#B7E4C7;" data-date="2026-12-14"><span class="daynum">14</span></td><td style="background:#B7E4C7;" data-date="2026-12-15"><span class="daynum">15</span></td><td style="background:#B7E4C7;" data-date="2026-12-16"><span class="daynum">16</span></td><td style="background:#B7E4C7;" data-date="2026-12-17"><span class="daynum">17</span></td><td style="background:#B7E4C7;" data-date="2026-12-18"><span class="daynum">18</span></td><td style="background:#FFC9C9;" data-date="2026-12-19"><span class="daynum">19</span></td><td style="background:#FFC9C9;" data-date="2026-12-20"><span class="daynum">20</span></td></tr>
+<tr><td style="background:#B7E4C7;" data-date="2026-12-21"><span class="daynum">21</span></td><td style="background:#B7E4C7;" data-date="2026-12-22"><span class="daynum">22</span></td><td style="background:#B7E4C7;" data-date="2026-12-23"><span class="daynum">23</span></td><td style="background:#B7E4C7;" data-date="2026-12-24"><span class="daynum">24</span></td><td style="background:#C9CDD3;" data-date="2026-12-25"><span class="daynum">25</span></td><td style="background:#C9CDD3;" data-date="2026-12-26"><span class="daynum">26</span></td><td style="background:#C9CDD3;" data-date="2026-12-27"><span class="daynum">27</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2026-12-28"><span class="daynum">28</span></td><td style="background:#C9CDD3;" data-date="2026-12-29"><span class="daynum">29</span></td><td style="background:#C9CDD3;" data-date="2026-12-30"><span class="daynum">30</span></td><td style="background:#C9CDD3;" data-date="2026-12-31"><span class="daynum">31</span></td><td class="pad"></td><td class="pad"></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Січень 2027</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td style="background:#C9CDD3;" data-date="2027-01-01"><span class="daynum">1</span></td><td style="background:#C9CDD3;" data-date="2027-01-02"><span class="daynum">2</span></td><td style="background:#C9CDD3;" data-date="2027-01-03"><span class="daynum">3</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-01-04"><span class="daynum">4</span></td><td style="background:#C9CDD3;" data-date="2027-01-05"><span class="daynum">5</span></td><td style="background:#C9CDD3;" data-date="2027-01-06"><span class="daynum">6</span></td><td style="background:#C9CDD3;" data-date="2027-01-07"><span class="daynum">7</span></td><td style="background:#C9CDD3;" data-date="2027-01-08"><span class="daynum">8</span></td><td style="background:#C9CDD3;" data-date="2027-01-09"><span class="daynum">9</span></td><td style="background:#C9CDD3;" data-date="2027-01-10"><span class="daynum">10</span></td></tr>
+<tr><td style="background:#D0BFFF;" data-date="2027-01-11"><span class="daynum">11</span></td><td style="background:#D0BFFF;" data-date="2027-01-12"><span class="daynum">12</span></td><td style="background:#D0BFFF;" data-date="2027-01-13"><span class="daynum">13</span></td><td style="background:#D0BFFF;" data-date="2027-01-14"><span class="daynum">14</span></td><td style="background:#D0BFFF;" data-date="2027-01-15"><span class="daynum">15</span></td><td style="background:#FFC9C9;" data-date="2027-01-16"><span class="daynum">16</span></td><td style="background:#FFC9C9;" data-date="2027-01-17"><span class="daynum">17</span></td></tr>
+<tr><td style="background:#D0BFFF;" data-date="2027-01-18"><span class="daynum">18</span></td><td style="background:#D0BFFF;" data-date="2027-01-19"><span class="daynum">19</span></td><td style="background:#D0BFFF;" data-date="2027-01-20"><span class="daynum">20</span></td><td style="background:#D0BFFF;" data-date="2027-01-21"><span class="daynum">21</span></td><td style="background:#D0BFFF;" data-date="2027-01-22"><span class="daynum">22</span></td><td style="background:#FFC9C9;" data-date="2027-01-23"><span class="daynum">23</span></td><td style="background:#FFC9C9;" data-date="2027-01-24"><span class="daynum">24</span></td></tr>
+<tr><td style="background:#D0BFFF;" data-date="2027-01-25"><span class="daynum">25</span></td><td style="background:#D0BFFF;" data-date="2027-01-26"><span class="daynum">26</span></td><td style="background:#D0BFFF;" data-date="2027-01-27"><span class="daynum">27</span></td><td style="background:#D0BFFF;" data-date="2027-01-28"><span class="daynum">28</span></td><td style="background:#D0BFFF;" data-date="2027-01-29"><span class="daynum">29</span></td><td style="background:#FFC9C9;" data-date="2027-01-30"><span class="daynum">30</span></td><td style="background:#FFC9C9;" data-date="2027-01-31"><span class="daynum">31</span></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Лютий 2027</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td style="background:#D0BFFF;" data-date="2027-02-01"><span class="daynum">1</span></td><td style="background:#D0BFFF;" data-date="2027-02-02"><span class="daynum">2</span></td><td style="background:#D0BFFF;" data-date="2027-02-03"><span class="daynum">3</span></td><td style="background:#D0BFFF;" data-date="2027-02-04"><span class="daynum">4</span></td><td style="background:#D0BFFF;" data-date="2027-02-05"><span class="daynum">5</span></td><td style="background:#FFC9C9;" data-date="2027-02-06"><span class="daynum">6</span></td><td style="background:#FFC9C9;" data-date="2027-02-07"><span class="daynum">7</span></td></tr>
+<tr><td style="background:#D0BFFF;" data-date="2027-02-08"><span class="daynum">8</span></td><td style="background:#D0BFFF;" data-date="2027-02-09"><span class="daynum">9</span></td><td style="background:#D0BFFF;" data-date="2027-02-10"><span class="daynum">10</span></td><td style="background:#D0BFFF;" data-date="2027-02-11"><span class="daynum">11</span></td><td style="background:#D0BFFF;" data-date="2027-02-12"><span class="daynum">12</span></td><td style="background:#FFC9C9;" data-date="2027-02-13"><span class="daynum">13</span></td><td style="background:#FFC9C9;" data-date="2027-02-14"><span class="daynum">14</span></td></tr>
+<tr><td style="background:#D0BFFF;" data-date="2027-02-15"><span class="daynum">15</span></td><td style="background:#D0BFFF;" data-date="2027-02-16"><span class="daynum">16</span></td><td style="background:#D0BFFF;" data-date="2027-02-17"><span class="daynum">17</span></td><td style="background:#D0BFFF;" data-date="2027-02-18"><span class="daynum">18</span></td><td style="background:#D0BFFF;" data-date="2027-02-19"><span class="daynum">19</span></td><td style="background:#FFC9C9;" data-date="2027-02-20"><span class="daynum">20</span></td><td style="background:#FFC9C9;" data-date="2027-02-21"><span class="daynum">21</span></td></tr>
+<tr><td style="background:#D0BFFF;" data-date="2027-02-22"><span class="daynum">22</span></td><td style="background:#D0BFFF;" data-date="2027-02-23"><span class="daynum">23</span></td><td style="background:#D0BFFF;" data-date="2027-02-24"><span class="daynum">24</span></td><td style="background:#D0BFFF;" data-date="2027-02-25"><span class="daynum">25</span></td><td style="background:#D0BFFF;" data-date="2027-02-26"><span class="daynum">26</span></td><td style="background:#FFC9C9;" data-date="2027-02-27"><span class="daynum">27</span></td><td style="background:#FFC9C9;" data-date="2027-02-28"><span class="daynum">28</span></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Березень 2027</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td style="background:#D0BFFF;" data-date="2027-03-01"><span class="daynum">1</span></td><td style="background:#D0BFFF;" data-date="2027-03-02"><span class="daynum">2</span></td><td style="background:#D0BFFF;" data-date="2027-03-03"><span class="daynum">3</span></td><td style="background:#D0BFFF;" data-date="2027-03-04"><span class="daynum">4</span></td><td style="background:#D0BFFF;" data-date="2027-03-05"><span class="daynum">5</span></td><td style="background:#FFC9C9;" data-date="2027-03-06"><span class="daynum">6</span></td><td style="background:#FFC9C9;" data-date="2027-03-07"><span class="daynum">7</span></td></tr>
+<tr><td style="background:#D0BFFF;" data-date="2027-03-08"><span class="daynum">8</span></td><td style="background:#D0BFFF;" data-date="2027-03-09"><span class="daynum">9</span></td><td style="background:#D0BFFF;" data-date="2027-03-10"><span class="daynum">10</span></td><td style="background:#D0BFFF;" data-date="2027-03-11"><span class="daynum">11</span></td><td style="background:#D0BFFF;" data-date="2027-03-12"><span class="daynum">12</span></td><td style="background:#FFC9C9;" data-date="2027-03-13"><span class="daynum">13</span></td><td style="background:#FFC9C9;" data-date="2027-03-14"><span class="daynum">14</span></td></tr>
+<tr><td style="background:#D0BFFF;" data-date="2027-03-15"><span class="daynum">15</span></td><td style="background:#D0BFFF;" data-date="2027-03-16"><span class="daynum">16</span></td><td style="background:#D0BFFF;" data-date="2027-03-17"><span class="daynum">17</span></td><td style="background:#D0BFFF;" data-date="2027-03-18"><span class="daynum">18</span></td><td style="background:#D0BFFF;" data-date="2027-03-19"><span class="daynum">19</span></td><td style="background:#FFC9C9;" data-date="2027-03-20"><span class="daynum">20</span></td><td style="background:#FFC9C9;" data-date="2027-03-21"><span class="daynum">21</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-03-22"><span class="daynum">22</span></td><td style="background:#C9CDD3;" data-date="2027-03-23"><span class="daynum">23</span></td><td style="background:#C9CDD3;" data-date="2027-03-24"><span class="daynum">24</span></td><td style="background:#C9CDD3;" data-date="2027-03-25"><span class="daynum">25</span></td><td style="background:#C9CDD3;" data-date="2027-03-26"><span class="daynum">26</span></td><td style="background:#C9CDD3;" data-date="2027-03-27"><span class="daynum">27</span></td><td style="background:#C9CDD3;" data-date="2027-03-28"><span class="daynum">28</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-03-29"><span class="daynum">29</span></td><td style="background:#FFD9AE;" data-date="2027-03-30"><span class="daynum">30</span></td><td style="background:#FFD9AE;" data-date="2027-03-31"><span class="daynum">31</span></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Квітень 2027</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td class="pad"></td><td class="pad"></td><td style="background:#FFD9AE;" data-date="2027-04-01"><span class="daynum">1</span></td><td style="background:#FFD9AE;" data-date="2027-04-02"><span class="daynum">2</span></td><td style="background:#FFC9C9;" data-date="2027-04-03"><span class="daynum">3</span></td><td style="background:#FFC9C9;" data-date="2027-04-04"><span class="daynum">4</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-04-05"><span class="daynum">5</span></td><td style="background:#FFD9AE;" data-date="2027-04-06"><span class="daynum">6</span></td><td style="background:#FFD9AE;" data-date="2027-04-07"><span class="daynum">7</span></td><td style="background:#FFD9AE;" data-date="2027-04-08"><span class="daynum">8</span></td><td style="background:#FFD9AE;" data-date="2027-04-09"><span class="daynum">9</span></td><td style="background:#FFC9C9;" data-date="2027-04-10"><span class="daynum">10</span></td><td style="background:#FFC9C9;" data-date="2027-04-11"><span class="daynum">11</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-04-12"><span class="daynum">12</span></td><td style="background:#FFD9AE;" data-date="2027-04-13"><span class="daynum">13</span></td><td style="background:#FFD9AE;" data-date="2027-04-14"><span class="daynum">14</span></td><td style="background:#FFD9AE;" data-date="2027-04-15"><span class="daynum">15</span></td><td style="background:#FFD9AE;" data-date="2027-04-16"><span class="daynum">16</span></td><td style="background:#FFC9C9;" data-date="2027-04-17"><span class="daynum">17</span></td><td style="background:#FFC9C9;" data-date="2027-04-18"><span class="daynum">18</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-04-19"><span class="daynum">19</span></td><td style="background:#FFD9AE;" data-date="2027-04-20"><span class="daynum">20</span></td><td style="background:#FFD9AE;" data-date="2027-04-21"><span class="daynum">21</span></td><td style="background:#FFD9AE;" data-date="2027-04-22"><span class="daynum">22</span></td><td style="background:#FFD9AE;" data-date="2027-04-23"><span class="daynum">23</span></td><td style="background:#FFC9C9;" data-date="2027-04-24"><span class="daynum">24</span></td><td style="background:#FFC9C9;" data-date="2027-04-25"><span class="daynum">25</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-04-26"><span class="daynum">26</span></td><td style="background:#FFD9AE;" data-date="2027-04-27"><span class="daynum">27</span></td><td style="background:#FFD9AE;" data-date="2027-04-28"><span class="daynum">28</span></td><td style="background:#FFD9AE;" data-date="2027-04-29"><span class="daynum">29</span></td><td style="background:#FFD9AE;" data-date="2027-04-30"><span class="daynum">30</span></td><td class="pad"></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Травень 2027</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td style="background:#FFC9C9;" data-date="2027-05-01"><span class="daynum">1</span></td><td style="background:#FFC9C9;" data-date="2027-05-02"><span class="daynum">2</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-05-03"><span class="daynum">3</span></td><td style="background:#FFD9AE;" data-date="2027-05-04"><span class="daynum">4</span></td><td style="background:#FFD9AE;" data-date="2027-05-05"><span class="daynum">5</span></td><td style="background:#FFD9AE;" data-date="2027-05-06"><span class="daynum">6</span></td><td style="background:#FFD9AE;" data-date="2027-05-07"><span class="daynum">7</span></td><td style="background:#FFC9C9;" data-date="2027-05-08"><span class="daynum">8</span></td><td style="background:#FFC9C9;" data-date="2027-05-09"><span class="daynum">9</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-05-10"><span class="daynum">10</span></td><td style="background:#FFD9AE;" data-date="2027-05-11"><span class="daynum">11</span></td><td style="background:#FFD9AE;" data-date="2027-05-12"><span class="daynum">12</span></td><td style="background:#FFD9AE;" data-date="2027-05-13"><span class="daynum">13</span></td><td style="background:#FFD9AE;" data-date="2027-05-14"><span class="daynum">14</span></td><td style="background:#FFC9C9;" data-date="2027-05-15"><span class="daynum">15</span></td><td style="background:#FFC9C9;" data-date="2027-05-16"><span class="daynum">16</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-05-17"><span class="daynum">17</span></td><td style="background:#FFD9AE;" data-date="2027-05-18"><span class="daynum">18</span></td><td style="background:#FFD9AE;" data-date="2027-05-19"><span class="daynum">19</span></td><td style="background:#FFD9AE;" data-date="2027-05-20"><span class="daynum">20</span></td><td style="background:#FFD9AE;" data-date="2027-05-21"><span class="daynum">21</span></td><td style="background:#FFC9C9;" data-date="2027-05-22"><span class="daynum">22</span></td><td style="background:#FFC9C9;" data-date="2027-05-23"><span class="daynum">23</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-05-24"><span class="daynum">24</span></td><td style="background:#FFD9AE;" data-date="2027-05-25"><span class="daynum">25</span></td><td style="background:#FFD9AE;" data-date="2027-05-26"><span class="daynum">26</span></td><td style="background:#FFD9AE;" data-date="2027-05-27"><span class="daynum">27</span></td><td style="background:#FFD9AE;" data-date="2027-05-28"><span class="daynum">28</span></td><td style="background:#FFC9C9;" data-date="2027-05-29"><span class="daynum">29</span></td><td style="background:#FFC9C9;" data-date="2027-05-30"><span class="daynum">30</span></td></tr>
+<tr><td style="background:#FFD9AE;" data-date="2027-05-31"><span class="daynum">31</span></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Червень 2027</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td style="background:#FFD9AE;" data-date="2027-06-01"><span class="daynum">1</span></td><td style="background:#FFD9AE;" data-special="1" data-date="2027-06-02" title="Останній дзвоник — завершення навчального року"><span class="daynum">2</span>★</td><td style="background:#C9CDD3;" data-date="2027-06-03"><span class="daynum">3</span></td><td style="background:#C9CDD3;" data-date="2027-06-04"><span class="daynum">4</span></td><td style="background:#C9CDD3;" data-date="2027-06-05"><span class="daynum">5</span></td><td style="background:#C9CDD3;" data-date="2027-06-06"><span class="daynum">6</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-06-07"><span class="daynum">7</span></td><td style="background:#C9CDD3;" data-date="2027-06-08"><span class="daynum">8</span></td><td style="background:#C9CDD3;" data-date="2027-06-09"><span class="daynum">9</span></td><td style="background:#C9CDD3;" data-date="2027-06-10"><span class="daynum">10</span></td><td style="background:#C9CDD3;" data-date="2027-06-11"><span class="daynum">11</span></td><td style="background:#C9CDD3;" data-date="2027-06-12"><span class="daynum">12</span></td><td style="background:#C9CDD3;" data-date="2027-06-13"><span class="daynum">13</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-06-14"><span class="daynum">14</span></td><td style="background:#C9CDD3;" data-date="2027-06-15"><span class="daynum">15</span></td><td style="background:#C9CDD3;" data-date="2027-06-16"><span class="daynum">16</span></td><td style="background:#C9CDD3;" data-date="2027-06-17"><span class="daynum">17</span></td><td style="background:#C9CDD3;" data-date="2027-06-18"><span class="daynum">18</span></td><td style="background:#C9CDD3;" data-date="2027-06-19"><span class="daynum">19</span></td><td style="background:#C9CDD3;" data-date="2027-06-20"><span class="daynum">20</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-06-21"><span class="daynum">21</span></td><td style="background:#C9CDD3;" data-date="2027-06-22"><span class="daynum">22</span></td><td style="background:#C9CDD3;" data-date="2027-06-23"><span class="daynum">23</span></td><td style="background:#C9CDD3;" data-date="2027-06-24"><span class="daynum">24</span></td><td style="background:#C9CDD3;" data-date="2027-06-25"><span class="daynum">25</span></td><td style="background:#C9CDD3;" data-date="2027-06-26"><span class="daynum">26</span></td><td style="background:#C9CDD3;" data-date="2027-06-27"><span class="daynum">27</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-06-28"><span class="daynum">28</span></td><td style="background:#C9CDD3;" data-date="2027-06-29"><span class="daynum">29</span></td><td style="background:#C9CDD3;" data-date="2027-06-30"><span class="daynum">30</span></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Липень 2027</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td class="pad"></td><td class="pad"></td><td style="background:#C9CDD3;" data-date="2027-07-01"><span class="daynum">1</span></td><td style="background:#C9CDD3;" data-date="2027-07-02"><span class="daynum">2</span></td><td style="background:#C9CDD3;" data-date="2027-07-03"><span class="daynum">3</span></td><td style="background:#C9CDD3;" data-date="2027-07-04"><span class="daynum">4</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-07-05"><span class="daynum">5</span></td><td style="background:#C9CDD3;" data-date="2027-07-06"><span class="daynum">6</span></td><td style="background:#C9CDD3;" data-date="2027-07-07"><span class="daynum">7</span></td><td style="background:#C9CDD3;" data-date="2027-07-08"><span class="daynum">8</span></td><td style="background:#C9CDD3;" data-date="2027-07-09"><span class="daynum">9</span></td><td style="background:#C9CDD3;" data-date="2027-07-10"><span class="daynum">10</span></td><td style="background:#C9CDD3;" data-date="2027-07-11"><span class="daynum">11</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-07-12"><span class="daynum">12</span></td><td style="background:#C9CDD3;" data-date="2027-07-13"><span class="daynum">13</span></td><td style="background:#C9CDD3;" data-date="2027-07-14"><span class="daynum">14</span></td><td style="background:#C9CDD3;" data-date="2027-07-15"><span class="daynum">15</span></td><td style="background:#C9CDD3;" data-date="2027-07-16"><span class="daynum">16</span></td><td style="background:#C9CDD3;" data-date="2027-07-17"><span class="daynum">17</span></td><td style="background:#C9CDD3;" data-date="2027-07-18"><span class="daynum">18</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-07-19"><span class="daynum">19</span></td><td style="background:#C9CDD3;" data-date="2027-07-20"><span class="daynum">20</span></td><td style="background:#C9CDD3;" data-date="2027-07-21"><span class="daynum">21</span></td><td style="background:#C9CDD3;" data-date="2027-07-22"><span class="daynum">22</span></td><td style="background:#C9CDD3;" data-date="2027-07-23"><span class="daynum">23</span></td><td style="background:#C9CDD3;" data-date="2027-07-24"><span class="daynum">24</span></td><td style="background:#C9CDD3;" data-date="2027-07-25"><span class="daynum">25</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-07-26"><span class="daynum">26</span></td><td style="background:#C9CDD3;" data-date="2027-07-27"><span class="daynum">27</span></td><td style="background:#C9CDD3;" data-date="2027-07-28"><span class="daynum">28</span></td><td style="background:#C9CDD3;" data-date="2027-07-29"><span class="daynum">29</span></td><td style="background:#C9CDD3;" data-date="2027-07-30"><span class="daynum">30</span></td><td style="background:#C9CDD3;" data-date="2027-07-31"><span class="daynum">31</span></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+
+    <div class="month">
+      <h3>Серпень 2027</h3>
+      <table>
+        <tr><th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Нд</th></tr>
+        <tr><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td style="background:#C9CDD3;" data-date="2027-08-01"><span class="daynum">1</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-08-02"><span class="daynum">2</span></td><td style="background:#C9CDD3;" data-date="2027-08-03"><span class="daynum">3</span></td><td style="background:#C9CDD3;" data-date="2027-08-04"><span class="daynum">4</span></td><td style="background:#C9CDD3;" data-date="2027-08-05"><span class="daynum">5</span></td><td style="background:#C9CDD3;" data-date="2027-08-06"><span class="daynum">6</span></td><td style="background:#C9CDD3;" data-date="2027-08-07"><span class="daynum">7</span></td><td style="background:#C9CDD3;" data-date="2027-08-08"><span class="daynum">8</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-08-09"><span class="daynum">9</span></td><td style="background:#C9CDD3;" data-date="2027-08-10"><span class="daynum">10</span></td><td style="background:#C9CDD3;" data-date="2027-08-11"><span class="daynum">11</span></td><td style="background:#C9CDD3;" data-date="2027-08-12"><span class="daynum">12</span></td><td style="background:#C9CDD3;" data-date="2027-08-13"><span class="daynum">13</span></td><td style="background:#C9CDD3;" data-date="2027-08-14"><span class="daynum">14</span></td><td style="background:#C9CDD3;" data-date="2027-08-15"><span class="daynum">15</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-08-16"><span class="daynum">16</span></td><td style="background:#C9CDD3;" data-date="2027-08-17"><span class="daynum">17</span></td><td style="background:#C9CDD3;" data-date="2027-08-18"><span class="daynum">18</span></td><td style="background:#C9CDD3;" data-date="2027-08-19"><span class="daynum">19</span></td><td style="background:#C9CDD3;" data-date="2027-08-20"><span class="daynum">20</span></td><td style="background:#C9CDD3;" data-date="2027-08-21"><span class="daynum">21</span></td><td style="background:#C9CDD3;" data-date="2027-08-22"><span class="daynum">22</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-08-23"><span class="daynum">23</span></td><td style="background:#C9CDD3;" data-date="2027-08-24"><span class="daynum">24</span></td><td style="background:#C9CDD3;" data-date="2027-08-25"><span class="daynum">25</span></td><td style="background:#C9CDD3;" data-date="2027-08-26"><span class="daynum">26</span></td><td style="background:#C9CDD3;" data-date="2027-08-27"><span class="daynum">27</span></td><td style="background:#C9CDD3;" data-date="2027-08-28"><span class="daynum">28</span></td><td style="background:#C9CDD3;" data-date="2027-08-29"><span class="daynum">29</span></td></tr>
+<tr><td style="background:#C9CDD3;" data-date="2027-08-30"><span class="daynum">30</span></td><td style="background:#C9CDD3;" data-date="2027-08-31"><span class="daynum">31</span></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td><td class="pad"></td></tr>
+
+      </table>
+    </div>
+    
+  </div>
+  <script>
+    (function() {
+      var today = new Date();
+      var iso = today.getFullYear() + "-" +
+        String(today.getMonth()+1).padStart(2,"0") + "-" +
+        String(today.getDate()).padStart(2,"0");
+      var cell = document.querySelector('td[data-date="' + iso + '"]');
+      if (cell) {
+        cell.classList.add("today");
+        cell.scrollIntoView({block:"center"});
+      }
+    })();
+  </script>
+</body>
+</html>
